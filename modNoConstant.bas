@@ -380,17 +380,17 @@ Public Function GetcurrentConnectInfo(ByRef Con As String, ByRef ConBB As String
 '            "pwd=" & "DfySiywtgtw$1>)=" & ";"
 '        MsgBox (Con)
 ''''
-210   Con = "DRIVER={SQL Server};" & _
-      "Server=DESKTOP-3OMS1N5\SQLEXPRESS;" & _
-      "Database=Histology_TullTest;" & _
-      "Trusted_Connection=Yes;"
+'210   Con = "DRIVER={SQL Server};" & _
+'      "Server=DESKTOP-3OMS1N5\SQLEXPRESS;" & _
+'      "Database=Histology_TullTest;" & _
+'      "Trusted_Connection=Yes;"
 
 220   If TransfusionDB <> "" Then
-'230     ConBB = "DRIVER={SQL Server};" & _
-'                "Server=" & Obfuscate(ServerName) & ";" & _
-'                "Database=" & Obfuscate(TransfusionDB) & ";" & _
-'                "uid=" & uId & ";" & _
-'                "pwd=" & PWD & ";"
+230     ConBB = "DRIVER={SQL Server};" & _
+                "Server=" & Obfuscate(ServerName) & ";" & _
+                "Database=" & Obfuscate(TransfusionDB) & ";" & _
+                "uid=" & uId & ";" & _
+                "pwd=" & PWD & ";"
 '        ConBB = "DRIVER={SQL Server};" & _
 '                "Server=" & "192.168.20.21" & ";" & _
 '                "Database=" & "Transfusion_TullLive" & ";" & _
